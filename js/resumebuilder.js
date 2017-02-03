@@ -63,7 +63,7 @@ var work = {
         "title": "Consulation and Operations Agent",
         "dates": "March 2016 - Present",
         "location": "10221 Perimeter Pkwy, Charlotte, NC 28216",
-        "url": "http://www.bestbuy.com/site/electronics/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018",
+        "url": "https://www.bestbuy.com/site/electronics/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018",
         "description": "Reponsible for checking in client devices, troubleshooting software and hardware issues, " +
                     "along with shipping and receiving client devices in and out of the precinct.  I was required to maintain " +
                     "a comprehensive knowledge of consumer electronic devices and provide the client with a complete and prompt solution."
@@ -73,7 +73,7 @@ var work = {
         "title": "Host/Server",
         "dates": "September 2013 - January 2016",
         "location": "Selden Plaza, 289 Middle Country Rd, Selden, NY 11784",
-        "url": "http://www.rubytuesday.com/",
+        "url": "https://www.rubytuesday.com/",
         "description": "At Ruby Tuesday I always strived to provide excellent customer service with a friendly smile.  " +
                         "I worked hard to create an inviting atmosphere for patrons, helped to foster a team centered work environment with " +
                         "coworkers, and closely followed all health and safety guidelines."
@@ -82,7 +82,7 @@ var work = {
         "title": "Biological Sciences Tutor",
         "dates": "January 2011 - December 2011",
         "location": "115 South St, Middletown, NY 10940",
-        "url": "http://www.sunyorange.edu/las/",
+        "url": "https://www.sunyorange.edu/las/",
         "description": "Working as a tutor was a rewarding and interesting experience. " +
                         "My time spent educating students helped me learn and grow as a student.  I stayed current on coursework " +
                         "for multiple subjects and developed materials and lessons that helped students succeed."
@@ -113,17 +113,17 @@ var projects = {
         "title": "Animal Cards Markup",
         "dates": "May 2016",
         "description": "Created a CSS object to learn how to create a design based on a markup.",
-        "images": ["http://i.imgur.com/B2Qt7ed.png"]
+        "images": ["https://i.imgur.com/B2Qt7ed.png"]
     }, {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
         "description": "Here I created a website based off of a rough markup.  I think really went above and beyond making it very responsive and clean.",
-        "images": ["http://i.imgur.com/SL2X3RQ.png"]
+        "images": ["https://i.imgur.com/SL2X3RQ.png"]
     }, {
         "title": "Resume Project",
         "dates": "August 2016",
         "description": "This resume is actually one of my projects!",
-        "images": ["http://i.imgur.com/wOkzI8e.png"]
+        "images": ["https://i.imgur.com/wOkzI8e.png"]
     }]
 };
 
@@ -163,21 +163,21 @@ var education = {
         "degree": "-- BS: Biological Sciences - Cum Laude",
         "majors": ["Biological Sciences"],
         "dates": "Fall 2013 - Fall 2016",
-        "url": "http://www.stonybrook.edu/"
+        "url": "https://www.stonybrook.edu/"
     }, {
         "name": "University of Colorado at Boulder",
         "location": "Boulder, CO",
         "degree": "",
         "majors": ["Ecology and Evolutionary Biology"],
         "dates": "Fall 2012 - Spring 2013",
-        "url": "http://www.colorado.edu/"
+        "url": "https://www.colorado.edu/"
     }, {
         "name": "SUNY Orange",
         "location": "Middletown, NY",
         "degree": "",
         "majors": ["Ecology and Evolutionary Biology"],
         "dates": "Fall 2008, Spring 2011 - Spring 2012",
-        "url": "http://www.sunyorange.edu/"
+        "url": "https://www.sunyorange.edu/"
     }],
     "onlineCourses": [{
         "title": "Front End Nanodegree",
