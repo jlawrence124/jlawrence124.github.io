@@ -15,7 +15,7 @@ var bio = {
                     "to a hardworking team.  I have been working tirelessly to learn new concepts and stay up to date on all of the latest trends as an " +
                     "active member of the front end community.",
     "skills": [
-        "HTML 5 ●●●●○", "CSS 3 ●●●○○", "Grunt ●●○○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "Knockout JS ●●●○○", "Python ●●○○○"
+        "HTML 5 ●●●●○", "CSS 3 ●●●●○", "Grunt ●●○○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "Knockout JS ●●●○○", "Python ●●○○○"
     ],
     "biopic": "images/me.jpg"
 };
