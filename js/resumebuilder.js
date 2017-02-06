@@ -113,7 +113,8 @@ var projects = {
         "title": "Animal Cards Markup",
         "dates": "May 2016",
         "description": "Created a CSS object to learn how to create a design based on a markup.",
-        "images": ["https://i.imgur.com/B2Qt7ed.png"]
+        "images": ["https://i.imgur.com/B2Qt7ed.png"],
+        "url": "#"
     }, {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
