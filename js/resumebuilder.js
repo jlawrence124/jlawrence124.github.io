@@ -139,6 +139,7 @@ projects.display = function() {
             var formattedProjectDates = HTMLprojectDates.replace("%data%", project.dates);
             var formattedProjectDescription = HTMLprojectDescription.replace("%data%", project.description);
 
+
             project.images.forEach(function(image) {
 
                 var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
