@@ -114,7 +114,7 @@ var projects = {
         "dates": "May 2016",
         "description": "Created a CSS object to learn how to create a design based on a markup.",
         "images": ["https://i.imgur.com/B2Qt7ed.png"],
-        "url": "#"
+        "url": "."
     }, {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
@@ -126,7 +126,7 @@ var projects = {
         "dates": "August 2016",
         "description": "This resume is actually one of my projects!",
         "images": ["https://i.imgur.com/wOkzI8e.png"],
-        "url": "#"
+        "url": "."
     }]
 };
 
