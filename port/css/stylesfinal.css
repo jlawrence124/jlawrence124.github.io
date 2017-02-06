@@ -1,0 +1,145 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial font */
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+/* Box sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 670px) {
+    .top-logo {
+        max-height: 80px;
+    }
+}
+@media screen and (min-width: 670px) {
+    .name {
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 669px) {
+    .name {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .figtext {
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 525px) and (max-width: 990px) {
+    .si {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    /*keeps safari from squishing img */
+    .little-img {
+        min-width: 300px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .feat-work {
+        text-align: center;
+    }
+    .little-img {
+        max-width: 100%;
+        display: flex;
+        margin: auto;
+    }
+    .si {
+        margin: auto;
+    }
+    .figtext {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+/* HTML elements */
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    max-width: 100%;
+    padding: 10px;
+    color: #2d3c49;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+a {
+    color: #2d3c49;
+    margin: auto;
+}
+h3 {
+    font-size: 30px;
+}
+hr {
+    border: none;
+    height: 2px;
+    color: #7d97ad;
+    background-color: #7d97ad;
+}
+
+/* Classes */
+
+.row-centered {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.name {
+    font-weight: 100;
+    text-align: right;
+    vertical-align: middle;
+}
+.navigation {
+    margin: 20px 0 10px 0;
+    list-style: none;
+    width: 100%;
+    font-size: 20px;
+}
+.center-image {
+    width: 100%;
+}
+.icon {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.top-hr {
+    margin-top: 4px;
+}
+.ci p {
+    text-align: center;
+}
+.si {
+    margin-bottom: 10px;
+}
+.bottom-hr {
+    width: auto;
+}
+.bottom-icons {
+    text-align: center;
+}
+.zocial-icon {
+    font-size: 40px;
+    margin: auto;
+}

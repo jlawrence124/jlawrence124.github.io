@@ -8,14 +8,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyAwRUqDZlhpMXKRt4ppP-CJeDAIRBAVaBU”></script>
+    <script async defer src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?&callback=locationDetails" onerror="googleError()"></script> -->
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
     <div id="main">
-
         <div id="header" class="center-content clear-fix">
             <ul id="topContacts" class="flex-box"></ul>
         </div>
@@ -39,7 +39,6 @@
         </div>
     </div>
     <script src="js/jQuery.js"></script>
-
     <script src="js/helper.js"></script>
 
     <script async src="js/resumebuilder.js"></script>

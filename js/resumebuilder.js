@@ -118,7 +118,8 @@ var projects = {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
         "description": "Here I created a website based off of a rough markup.  I think really went above and beyond making it very responsive and clean.",
-        "images": ["https://i.imgur.com/SL2X3RQ.png"]
+        "images": ["https://i.imgur.com/SL2X3RQ.png"],
+        "url": "port/portfolio.html"
     }, {
         "title": "Resume Project",
         "dates": "August 2016",
@@ -134,7 +135,7 @@ projects.display = function() {
 
             $("#projects").append(HTMLprojectStart);
 
-            var formattedProjectTitle = HTMLprojectTitle.replace("%data%", project.title);
+            var formattedProjectTitle = HTMLprojectTitle.replace("url", project.url).replace("%data%", project.title);
             var formattedProjectDates = HTMLprojectDates.replace("%data%", project.dates);
             var formattedProjectDescription = HTMLprojectDescription.replace("%data%", project.description);
 

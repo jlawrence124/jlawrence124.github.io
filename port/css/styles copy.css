@@ -1,0 +1,46 @@
+* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+   .top-logo {
+     max-height: 100px;
+   }
+   .name {
+     font-size: 20px;
+     width: 50%;
+   }
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  display: flex;
+  width: 960px;
+}
+
+.bottom {
+    min-width: 960px;
+    margin: auto;
+}
+
+.top-logo {
+  height: 200px;
+  margin: auto;
+}
+
+.name {
+  font-size: 40px;
+  text-align: right;
+}
