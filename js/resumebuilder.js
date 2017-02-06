@@ -124,7 +124,8 @@ var projects = {
         "title": "Resume Project",
         "dates": "August 2016",
         "description": "This resume is actually one of my projects!",
-        "images": ["https://i.imgur.com/wOkzI8e.png"]
+        "images": ["https://i.imgur.com/wOkzI8e.png"],
+        "url": "#"
     }]
 };
 
