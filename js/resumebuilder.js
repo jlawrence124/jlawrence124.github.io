@@ -11,11 +11,11 @@ var bio = {
         "linkedin": "Joshua Lawrence",
         "location": "Charlotte, North Carolina"
     },
-    "welcomeMessage": "Thank you for viewing my resume!  I am an energetic, optimistic, and disciplined front end developer looking to use my skils to contribute " +
-                    "to a hardworking team.  I have been working tirelessly to learn new concepts and stay up to date on all of the latest trends as an " +
-                    "active member of the front end community.",
+    "welcomeMessage": "Energetic, optimistic, and disciplined front end developer looking to contribute " +
+        "to a hardworking team.  I have been working tirelessly to learn new concepts and stay up to date on all of the latest trends as an " +
+        "active member of the front end community.",
     "skills": [
-        "HTML 5 ●●●●○", "CSS 3 ●●●●○", "Grunt ●●○○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "Knockout JS ●●●○○", "Python ●●○○○"
+        "HTML 5 ●●●●○", "CSS 3 ●●●●○", "Grunt ●●○○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Python ●●○○○"
     ],
     "biopic": "images/me.jpg"
 };
@@ -64,28 +64,26 @@ var work = {
         "dates": "March 2016 - Present",
         "location": "10221 Perimeter Pkwy, Charlotte, NC 28216",
         "url": "https://www.bestbuy.com/site/electronics/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018",
-        "description": "Reponsible for checking in client devices, troubleshooting software and hardware issues, " +
-                    "along with shipping and receiving client devices in and out of the precinct.  I was required to maintain " +
-                    "a comprehensive knowledge of consumer electronic devices and provide the client with a complete and prompt solution."
+        "description": "Received client devices, troubleshot software and hardware issues, " +
+            "and shipped client devices in and out of the precinct. Required to maintain " +
+            "a comprehensive knowledge of consumer electronic devices and provide the client with a complete and prompt solution."
 
     }, {
-        "employer": "Ruby Tuesday",
+        "employer": "Lawrence Computers",
         "title": "Host/Server",
-        "dates": "September 2013 - January 2016",
-        "location": "Selden Plaza, 289 Middle Country Rd, Selden, NY 11784",
-        "url": "https://www.rubytuesday.com/",
-        "description": "At Ruby Tuesday I always strived to provide excellent customer service with a friendly smile.  " +
-                        "I worked hard to create an inviting atmosphere for patrons, helped to foster a team centered work environment with " +
-                        "coworkers, and closely followed all health and safety guidelines."
+        "dates": "November 2014 - January 2016",
+        "location": "1998 Route 112,  Selden, NY",
+        "url": "N/A",
+        "description": "Provided custom computing solutions for music professionals and the general public at a fair price. " +
+            "Custom builds included both Windows and Windows/Mac OS hybrid configurations."
     }, {
         "employer": "SUNY Orange",
         "title": "Biological Sciences Tutor",
         "dates": "January 2011 - December 2011",
         "location": "115 South St, Middletown, NY 10940",
         "url": "https://www.sunyorange.edu/las/",
-        "description": "Working as a tutor was a rewarding and interesting experience. " +
-                        "My time spent educating students helped me learn and grow as a student.  I stayed current on coursework " +
-                        "for multiple subjects and developed materials and lessons that helped students succeed."
+        "description": "Stayed current on university coursework " +
+            "for multiple subjects and developed materials and lessons that helped students succeed."
     }]
 };
 
@@ -114,11 +112,11 @@ var projects = {
         "dates": "May 2016",
         "description": "Created a CSS object to learn how to create a design based on a markup.",
         "images": ["https://i.imgur.com/B2Qt7ed.png"],
-        "url": "."
+        "url": "animal/card.html"
     }, {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
-        "description": "Here I created a website based off of a rough markup.  I think really went above and beyond making it very responsive and clean.",
+        "description": "Created a functional website from an image mockup.",
         "images": ["https://i.imgur.com/SL2X3RQ.png"],
         "url": "port/portfolio.html"
     }, {
@@ -126,7 +124,19 @@ var projects = {
         "dates": "August 2016",
         "description": "This resume is actually one of my projects!",
         "images": ["https://i.imgur.com/wOkzI8e.png"],
-        "url": "."
+        "url": "#"
+    }, {
+        "title": "Beerger",
+        "dates": "October 2016",
+        "description": "Recreated the classic game Frogger using HTML canvas manipulation. Can you dodge the beer 10 times and get your work done? Use arrow keys for movement.",
+        "images": ["images/beer.png"],
+        "url": "arcade/index.html"
+    }, {
+        "title": "Pizza Performance",
+        "dates": "December 2016",
+        "description": "Took an admittedly horrible website and optimized it's performance.  The site now runs at a silky smooth 60fps and is free of any jank.",
+        "images": ["images/pizza.png"],
+        "url": "pizza/pizza.html"
     }]
 };
 
@@ -137,9 +147,11 @@ projects.display = function() {
 
             $("#projects").append(HTMLprojectStart);
 
+            var formattedProjectContainer = HTMLprojectContainer;
             var formattedProjectTitle = HTMLprojectTitle.replace("url", project.url).replace("%data%", project.title);
             var formattedProjectDates = HTMLprojectDates.replace("%data%", project.dates);
             var formattedProjectDescription = HTMLprojectDescription.replace("%data%", project.description);
+            var formattedProjectClose = HTMLprojectClose;
 
 
             project.images.forEach(function(image) {
@@ -213,7 +225,7 @@ education.display = function() {
             formattedSchoolDates + formattedSchoolMajor + formattedOnlineUrl;
 
 
-    $(".education-entry:last").append(formattedSchool);
+        $(".education-entry:last").append(formattedSchool);
     });
 
 

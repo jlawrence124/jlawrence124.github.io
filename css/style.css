@@ -16,7 +16,7 @@ body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
 .project-entry {
     display: inline-block;
     vertical-align: top;
-    margin: auto;
+    width: 280px;
 }
 .project-description {
     max-width: 400px;

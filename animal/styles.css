@@ -1,0 +1,55 @@
+body {
+  align-content: center;
+}
+.card {
+  font-family: arial, sans-serif;
+  background-color:	#E8E8E8;
+  color: #606060;
+  height: 495px;
+  width: 298px;
+  box-shadow: 7px 6px 42px -8px rgba(0,0,0,0.75);
+  padding-left: 12px;
+  padding-right: 13px;
+  margin: auto;
+  padding-top: 1px;
+}
+
+.title{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.image{
+  padding-bottom: 5px;
+}
+
+.inner-card{
+  font-size: 12.5px;
+  border-style: solid;
+  border-color: #606060;
+  border-width: thin;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.factoid{
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.ul{
+  list-style: none;
+  padding-left: 0;
+  font-style: italic;
+}
+
+.bullet{
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.details{
+  margin-bottom: 5px;
+}
