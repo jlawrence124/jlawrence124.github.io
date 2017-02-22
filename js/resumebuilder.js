@@ -73,7 +73,7 @@ var work = {
         "title": "Owner",
         "dates": "November 2014 - January 2016",
         "location": "1998 Route 112,  Selden, NY",
-        "url": "N/A",
+        "url": "#",
         "description": "Provided custom computing solutions for music professionals and the general public at a fair price. " +
             "Custom builds included both Windows and Windows/Mac OS hybrid configurations."
     }, {
