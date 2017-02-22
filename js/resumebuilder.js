@@ -11,11 +11,11 @@ var bio = {
         "linkedin": "Joshua Lawrence",
         "location": "Charlotte, North Carolina"
     },
-    "welcomeMessage": "Energetic, optimistic, and disciplined front end developer looking to contribute " +
-        "to a hardworking team.  I have been working tirelessly to learn new concepts and stay up to date on all of the latest trends as an " +
+    "welcomeMessage": "Energetic, enthusiastic, and disciplined front end developer looking to contribute " +
+        "to a hardworking team.  Working every day to learn new concepts and stay current on all of the latest trends as an " +
         "active member of the front end community.",
     "skills": [
-        "HTML 5 ●●●●○", "CSS 3 ●●●●●", "Grunt ●●○○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Python ●●○○○"
+        "HTML 5 ●●●●○", "CSS 3 ●●●●●", "Grunt ●●●○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Performance Optimization ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Python ●●○○○"
     ],
     "biopic": "images/me.jpg"
 };
