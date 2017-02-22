@@ -137,6 +137,12 @@ var projects = {
         "description": "Took an admittedly horrible website and optimized it's performance.  The site now runs at a silky smooth 60fps and is free of any jank.",
         "images": ["images/pizza.png"],
         "url": "pizza/pizza.html"
+    }, {
+        "title": "Neighborhood Map",
+        "dates": "January-Februrary 2017",
+        "description": "Utilized MVVM pattern with knockoutJS and worked extensively with the Google Maps API to create a local listings website.",
+        "images": ["images/gmaps.png"],
+        "url": "map/neighborhood-map.html"
     }]
 };
 
@@ -156,7 +162,7 @@ projects.display = function() {
 
             project.images.forEach(function(image) {
 
-                var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
+                var formattedProjectImage = HTMLprojectImage.replace("%link%", project.url).replace("%data%", image);
                 $(".project-entry:last").append(formattedProjectImage);
             });
 

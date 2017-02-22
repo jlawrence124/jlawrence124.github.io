@@ -27,7 +27,7 @@ var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="url">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p class="project-description"><br>%data%</p>';
-var HTMLprojectImage = '<img class="pro-image" src="%data%">';
+var HTMLprojectImage = '<a href="%link%">"<img class="pro-image" src="%data%"></a>';
 var HTMLprojectClose = '</div>'
 
 
