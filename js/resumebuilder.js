@@ -140,7 +140,7 @@ var projects = {
     }, {
         "title": "Neighborhood Map",
         "dates": "January-Februrary 2017",
-        "description": "Utilized MVVM pattern with knockoutJS and worked extensively with the Google Maps API to create a local listings website.",
+        "description": "Utilized MVVM pattern with knockoutJS and worked extensively with the Google Maps and Yelp! API to create a local listings website.",
         "images": ["images/gmaps.png"],
         "url": "map/index.html"
     }]
