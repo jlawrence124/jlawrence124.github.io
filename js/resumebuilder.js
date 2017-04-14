@@ -1,6 +1,5 @@
 $("#mapDiv").append(googleMap);
 
-
 var bio = {
     "name": "Joshua Lawrence",
     "role": "Front End Web Developer",
@@ -15,7 +14,7 @@ var bio = {
         "to a hardworking team.  Working every day to learn new concepts and stay current on all of the latest trends as an " +
         "active member of the front end community.",
     "skills": [
-        "HTML 5 ●●●●○", "CSS 3 ●●●●●", "Grunt ●●●○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Performance Optimization ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Python ●●○○○"
+        "HTML 5 ●●●●○", "CSS 3 ●●●●●", "Grunt ●●●○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Performance Optimization ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Jasmine ●●●○○", "Python ●●○○○"
     ],
     "biopic": "images/me.jpg"
 };
@@ -27,9 +26,7 @@ bio.display = function() {
     var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
     var formattedNameRole = formattedName + formattedRole;
 
-
     $("#header").prepend(formattedNameRole);
-
 
     var contactStart = HTMLcontactGeneric;
     var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
@@ -146,7 +143,6 @@ var projects = {
     }]
 };
 
-
 projects.display = function() {
     projects.projects.forEach(function(project) {
         {
@@ -225,7 +221,7 @@ education.display = function() {
         var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", school.degree);
         var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", school.majors);
         var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
-        var formattedOnlineUrl = HTMLworkEmployer.replace("%data%", school.url).replace("%data%", school.url);
+        var formattedOnlineUrl = HTMLworkEmployer.replace("%data%", school.url).replace("that", school.url);
 
         var formattedSchool = formattedSchoolName + formattedSchoolLocation + formattedSchoolDegree +
             formattedSchoolDates + formattedSchoolMajor + formattedOnlineUrl;

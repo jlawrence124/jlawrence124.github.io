@@ -8,20 +8,32 @@ body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
 }
 .education-entry, .work-entry, .project-entry {
     padding: 5px 5% 10px;
+    max-width: 1200px;
+    margin: auto;
 }
-.education-entry:nth-child(even), .work-entry:nth-child(odd) {
+.edu-container:nth-child(even), .work-container:nth-child(odd) {
     background-color: #d8d8d8;
-    padding: 5px 5% 10px;
 }
 .project-entry {
     display: inline-block;
     vertical-align: top;
     width: 280px;
 }
+.work-description {
+    max-width: 1000px;
+    align-items: center;
+}
+.online-classes {
+    padding-left: 35px;
+    background-color: #d8d8d8;
+    color: #777777;
+}
 .project-description {
     max-width: 400px;
 }
-#project {
+#projects {
+    padding: 5px 5% 10px;
+    max-width: 1200px;
     margin: auto;
 }
 h1 {
@@ -36,16 +48,13 @@ h2 {
     font-size: 24px;
     color: #999;
     line-height: 29px;
-    padding: 10px;
+    padding: 10px 35px 10px 35px;
 }
 h4 {
     font-weight: bold;
     font-size: 14px;
     color: #4a4a4a;
     line-height: 17px;
-}
-h2, h4, h5 {
-    padding: 10px 5%;
 }
 h3 {
     font-weight: bold;
@@ -81,12 +90,16 @@ a {
     display: inline;
     color: lightblue;
 }
+.welcome-container {
+    margin-left: 100px;
+}
 .welcome-message {
     font-style: italic;
     font-size: 18px;
     color: #f3f3f3;
     line-height: 28px;
     text-align: center;
+    max-width: 1000px;
 }
 .work-title {
     font-style: italic;
@@ -222,8 +235,4 @@ span {
     .project-entry {
         display: block;
     }
-}
-
-}
-
 }

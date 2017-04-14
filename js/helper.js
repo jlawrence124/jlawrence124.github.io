@@ -10,17 +10,18 @@ var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
-var HTMLwelcomeMsg = '<p class="welcome-message">%data%</p>';
+var HTMLwelcomeMsg = '<div class="welcome-container"><p class="welcome-message">%data%</p></div>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
 var HTMLskills = '<li class="flex-item skills-font"><p class="white-text">%data%</p></li>';
 
-var HTMLworkStart = '<div class="work-entry"></div>';
+var HTMLworkStart = '<div class="work-container"><div class="work-entry"></div></div>';
 var HTMLworkEmployer = '<a class="ext-link" href="that">%data%</a>';
 var HTMLworkTitle = '<p class="work-title">%data%</p>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
-var HTMLworkDescription = '<p><br>%data%</p>';
+
+var HTMLworkDescription = '<p class="work-description"><br>%data%</p>';
 
 var HTMLprojectContainer = '<div class="proj-cont">'
 var HTMLprojectStart = '<div class="project-entry"></div>';
@@ -30,8 +31,7 @@ var HTMLprojectDescription = '<p class="project-description"><br>%data%</p>';
 var HTMLprojectImage = '<a href="%link%"><img class="pro-image" src="%data%"></a>';
 var HTMLprojectClose = '</div>'
 
-
-var HTMLschoolStart = '<div class="education-entry"></div>';
+var HTMLschoolStart = '<div class="edu-container"><div class="education-entry"></div></div>';
 var HTMLschoolName = '<a href="that">%data%';
 var HTMLschoolDegree = ' %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
@@ -39,8 +39,7 @@ var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 var HTMLschoolUrl = ""
 
-
-var HTMLonlineClasses = '<h3>Online Classes</h3>';
+var HTMLonlineClasses = '<h3 class="online-classes">Online Classes</h3>';
 var HTMLonlineTitle = '<a href="#">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
@@ -49,8 +48,6 @@ var HTMLonlineURL = '<br><a href="%data%">%data%</a>';
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
 
-
-
 $(document).ready(function() {
     $('button').click(function() {
         var $name = $('#name');
@@ -58,7 +55,6 @@ $(document).ready(function() {
         $name.html(iName);
     });
 });
-
 
 var clickLocations = [];
 
@@ -77,12 +73,7 @@ $(document).click(function(loc) {
     logClicks(x, y);
 });
 
-
-
-
 var map; // declares a global map variable
-
-
 
 function initializeMap() {
 
@@ -205,7 +196,6 @@ function initializeMap() {
     pinPoster(locations);
 
 }
-
 
 
 // Calls the initializeMap() function when the page loads
