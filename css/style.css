@@ -100,6 +100,7 @@ a {
     line-height: 28px;
     text-align: center;
     max-width: 1000px;
+    margin: auto;
 }
 .work-title {
     font-style: italic;
@@ -234,5 +235,8 @@ span {
 @media only screen and (max-width: 667px) {
     .project-entry {
         display: block;
+    }
+    #map {
+        height: 90%;
     }
 }
