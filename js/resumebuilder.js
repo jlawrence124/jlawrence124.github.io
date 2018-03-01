@@ -57,6 +57,16 @@ bio.display();
 var work = {
     "jobs": [{
         "employer": "Geek Squad",
+        "title": "Advanced Repair Agent",
+        "dates": "December 2017 - Present",
+        "location": "10221 Perimeter Pkwy, Charlotte, NC 28216",
+        "url": "https://www.bestbuy.com/site/electronics/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018",
+        "description": "Complete hardware and software repairs on client devices. " +
+            "Communicate with clients on the status of their repairs. " +
+            "Exhibit leadership and set goals for consultation agents in the precinct."
+
+    },  {
+        "employer": "Geek Squad",
         "title": "Consulation and Operations Agent",
         "dates": "March 2016 - Present",
         "location": "10221 Perimeter Pkwy, Charlotte, NC 28216",
@@ -73,14 +83,6 @@ var work = {
         "url": "#",
         "description": "Provided custom computing solutions for music professionals and the general public at a fair price. " +
             "Custom builds included both Windows and Windows/Mac OS hybrid configurations."
-    }, {
-        "employer": "SUNY Orange",
-        "title": "Biological Sciences Tutor",
-        "dates": "January 2011 - December 2011",
-        "location": "115 South St, Middletown, NY 10940",
-        "url": "https://www.sunyorange.edu/las/",
-        "description": "Stayed current on university coursework " +
-            "for multiple subjects and developed materials and lessons that helped students succeed."
     }]
 };
 
