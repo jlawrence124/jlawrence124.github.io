@@ -14,7 +14,7 @@ var bio = {
         "to a hardworking team.  Working every day to learn new concepts and stay current on all of the latest trends as an " +
         "active member of the front end community.",
     "skills": [
-        "HTML 5 ●●●●○", "CSS 3 ●●●●●", "Grunt ●●●○○", "Adobe Creative Cloud ●●●○○", "Responsive Web Design  ●●●●○", "Performance Optimization ●●●●○", "Javascript ●●●○○", "jQuery ●●●○○", "MVC Frameworks ●●●○○", "Jasmine ●●●○○", "Python ●●○○○"
+        "HTML 5", "CSS 3", "Grunt", "Adobe Creative Cloud Suite", "Responsive Web Design", "Performance Optimization", "Bootstrap", "MaterializeCSS", "Javascript", "jQuery", "MVC", "Jasmine", "React", "Python"
     ],
     "biopic": "images/me.jpg"
 };
@@ -128,18 +128,18 @@ var projects = {
         "description": "Recreated the classic game Frogger using HTML canvas manipulation. Can you dodge the beer 10 times and get your work done? Use arrow keys for movement.",
         "images": ["images/beer.png"],
         "url": "arcade/index.html"
-    }, {
-        "title": "Pizza Performance",
-        "dates": "December 2016",
-        "description": "Took an admittedly horrible website and optimized it's performance.  The site now runs at a silky smooth 60fps and is free of any jank.",
-        "images": ["images/pizza.png"],
-        "url": "pizza/pizza.html"
-    }, {
+    },  {
         "title": "Neighborhood Map",
         "dates": "January-Februrary 2017",
         "description": "Utilized MVVM pattern with knockoutJS and worked extensively with the Google Maps and Yelp! API to create a local listings website.",
         "images": ["images/gmaps.png"],
         "url": "map/index.html"
+    },  {
+        "title": "Vurger",
+        "dates": "January 2018",
+        "description": "Currently designing the mobile and desktop experience for an upcoming vegan/vegetarian location finder app.",
+        "images": ["images/vurger.png"],
+        "url": "#projects"
     }]
 };
 
