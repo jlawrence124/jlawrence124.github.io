@@ -7,7 +7,7 @@ var Model = {
                 lng: -80.814854
             },
             type: "Barbecue",
-            imgURL: "http://midwoodsmokehouse.com/locations/locations_charlotte_columbia_files/stacks-image-799e4d6-800x480.jpg",
+            imgURL: "http://midwoodsmokehouse.com/files/stacks-image-88740a5.jpg",
             yelp: "https://api.yelp.com/v2/business/midwood-smokehouse-charlotte",
             showLocation: ko.observable(true)
         },
