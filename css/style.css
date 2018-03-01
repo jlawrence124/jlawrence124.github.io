@@ -24,7 +24,7 @@ body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 .online-classes {
-    padding-left: 35px;
+    padding-left: 5px;
     background-color: #d8d8d8;
     color: #777777;
 }
@@ -48,7 +48,7 @@ h2 {
     font-size: 24px;
     color: #999;
     line-height: 29px;
-    padding: 10px 35px 10px 35px;
+    padding: 10px 35px 10px 0px;
 }
 h4 {
     font-weight: bold;
@@ -61,7 +61,7 @@ h3 {
     font-size: 19px;
     color: #a4a4a4;
     line-height: 22px;
-    padding: 10px 0 10px 5%;
+    padding: 10px 0 10px 0px;
 }
 .date-text {
     font-style: italic;
