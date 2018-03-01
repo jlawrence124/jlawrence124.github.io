@@ -7,7 +7,7 @@ var Model = {
                 lng: -80.814854
             },
             type: "Barbecue",
-            imgURL: "http://midwoodsmokehouse.com/files/stacks-image-88740a5.jpg",
+            imgURL: "img/midwood.jpg",
             yelp: "https://api.yelp.com/v2/business/midwood-smokehouse-charlotte",
             showLocation: ko.observable(true)
         },
@@ -19,7 +19,7 @@ var Model = {
                 lng: -80.838851
             },
             type: "Barbecue",
-            imgURL: "http://www.charlotteburgerblog.com/wp-content/uploads/2013/08/queen-city-q-15.jpg",
+            imgURL: "img/queen-city.jpg",
             yelp: "https://api.yelp.com/v2/business/queen-city-q-charlotte",
             showLocation: ko.observable(true)
         },
@@ -31,7 +31,7 @@ var Model = {
                 lng: -80.841997
             },
             type: "Classy",
-            imgURL: "http://www.greatplacesdirectory.com/spaces/171/scotts-patio.jpg",
+            imgURL: "img/capital-grille.jpg",
             yelp: "https://api.yelp.com/v2/business/the-capital-grille-charlotte",
             showLocation: ko.observable(true)
         },
@@ -43,7 +43,7 @@ var Model = {
                 lng: -80.842488
             },
             type: "Bar",
-            imgURL: "http://rooftop210.com/images/entertain.jpg",
+            imgURL: "img/rooftop.jpg",
             yelp: "https://api.yelp.com/v2/business/rooftop-210-charlotte-2",
             showLocation: ko.observable(true)
         },
@@ -55,7 +55,7 @@ var Model = {
                 lng: -80.839238
             },
             type: "Barcade",
-            imgURL: "https://s3-media2.fl.yelpcdn.com/bphoto/VsTEI5nMod-5hPcSU0Qp7w/o.jpg",
+            imgURL: "img/lucky.jpg",
             yelp: "https://api.yelp.com/v2/business/luckys-bar-and-arcade-charlotte",
             showLocation: ko.observable(true)
         }
