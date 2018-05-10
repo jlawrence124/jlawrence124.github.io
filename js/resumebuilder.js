@@ -138,7 +138,7 @@ var projects = {
         "url": "map/index.html"
     },  {
         "title": "Vurger",
-        "dates": "January 2018",
+        "dates": "January 2018 - Present",
         "description": "Currently designing the mobile and desktop experience for an upcoming vegan/vegetarian location finder app.",
         "images": ["images/vurger.png"],
         "url": "#projects"
