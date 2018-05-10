@@ -107,12 +107,6 @@ work.display();
 
 var projects = {
     "projects": [{
-        "title": "Animal Cards Markup",
-        "dates": "May 2016",
-        "description": "Created a CSS object to learn how to create a design based on a markup.",
-        "images": ["https://i.imgur.com/B2Qt7ed.png"],
-        "url": "animal/card.html"
-    }, {
         "title": "Portfolio Project",
         "dates": "June-July 2016",
         "description": "Created a functional website from an image mockup.",
